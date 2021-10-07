@@ -1,9 +1,142 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>First Activity</title>
-    </head>
-    <body>
+        <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewpo<meta chart" content="width=device-width, initial-scale=1.0">
+	<title>Activity 1</title>
+	<style>
+        @import url("https://fonts.googleapis.com/css?family=Tangerine:wght@300;400&display=swap");
+
+        main{
+position:center;
+  margin-bottom: 0;
+            position: fixed;
+            top:40px; 
+            bottom: 50px; 
+            left: 0px; 
+            right: 0; 
+            overflow: auto; 
+            background: black;
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("taylor.jpeg");
+        }
+        .portfolio-info{
+            
+            background-color: gray;
+            color: yellow;
+            height: 40px;
+            text-align: center;
+            width: 250px;
+            margin-bottom: 10px; 
+            border-radius: 20%; 
+        }
+        .text{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+
+
+        }
+        
+
+        .portfolio-container {
+            display: grid;
+            place-items: center;
+        }
+
+        .portfolio-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border:2px solid green;
+        }
+
+        .portfolio-container .name {
+            margin-top: 10px;
+            font-size: 30px;
+            color:green;
+        }
+         fieldset{
+            border-radius: 15%;
+            border: 2px solid gray;
+            background: linear-gradient(red,white);
+         }
+
+        .details{
+            
+            font-size: 18px;
+            font-family: Arial;
+            color: green;
+
+        }
+        .gallery-info{
+            background-color: gray;
+            color: yellow;
+            height: 40px;
+            text-align: center;
+            width: 250px;
+            margin-bottom: 10px;
+            margin-top: 40px; 
+            border-radius: 20%; 
+        }
+        .gallery-container img{
+            border:2px solid green;
+            border-radius: 15%; 
+        }
+        .footer{
+        text-align: center;
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+            width: 100%;
+            height: 50px; 
+            overflow: hidden; 
+            background: linear-gradient(red,white);
+            color: blue;
+            text-shadow: black;
+
+    
+    </style>
+	
+</head>
+<body>
+    <main>
+    <center>
+    <div class="portfolio-info"><h2 class="text">MY PORTFOLIO</h2></center>
+    </div>
+	<div class="container">
+        <div class="portfolio-container">
+            <img src="jica.jpeg" 
+                alt="userimg">
+            <div class="name"><fieldset>Angilica Bustillo</fieldset></div>
+            <div class="details">
+
+                <ul style="list-style-type:square;">
+                    <li><b>Age: 19</b></li>
+                    <li><b>Gender: Female</b></li>
+                    <li><b>Course: Bachelor of Science in Information Technology</b></li>
+                    <li><b>Year Level: Second Year</b></li>
+                    <li><b>School: EVSU-CC</b></li>
+                    <li><b>Addess: Brgy. San Isidro Barugo, Leyte</b></li>
+                </ul>
+            </div>
+        </div>       
+    </div>
+
+    <hr border="style: 2px solid  blue;">
+    <div class="container">
+
+        
+    </main>
+        <footer class="footer">
+  <center>
+  <b><i>Design by: Angelica Bustillo BSIT-2B</i></b>
+  <br>
+  <b>S.Y. 2021-2022</b>
+</center>
+</footer>
 
     </body>
 </html>
